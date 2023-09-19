@@ -12,13 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
-  },
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
+    "url": "git@github.com:Tortenkur/project-timestamp.git"
   },
   "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "author": "Patrick",
   "keywords": [
     "node",
     "express",

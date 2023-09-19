@@ -21,14 +21,14 @@ app.get("/", function (req, res) {
 
 // API endpoint 
 app.get("/api/", (req, res) => {
-    dateOutput = new Date();
+    const dateOutput = new Date();
     res.json({
         unix: dateOutput.getTime(),
         utc: dateOutput.toUTCString()})
 });
 app.get("/api/:date", (req, res) => {
     // check user input
-    console.log(dateInput);
+    const dateInput = req.params.date
     isNaN(dateInput)?dateOutput = new Date(dateInput):dateOutput = new Date(parseInt(dateInput));
     // convert date and build json
     const dateOutputUtc = dateOutput.toUTCString();
